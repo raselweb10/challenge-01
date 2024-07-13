@@ -60,6 +60,7 @@ body{
     border: 2px solid gold;
     margin: 110px auto;
     padding:80px 97px;
+    background: rgba(13, 19, 33, 0.02);
 
    
 }
@@ -148,7 +149,7 @@ body{
 #hero-content-03{
     height:20%;
     border: 2px solid green;
-    margin-top: 44px;
+    margin-top: 70px;
     text-align: center;
     padding:48px;
     display:flex;
@@ -176,6 +177,157 @@ body{
 }
 /* hero contetn 03 end */
 
+/* inspiration style */
+#inspiration{
+    border:2px solid blue;
+    width:1133px;
+    height:162px;
+    margin: 0 382px 100px 382px;
+}
+#inspiration h2{
+    text-align:center;
+    margin-bottom: 34px;
+}
+#inspiration p{
+    text-align: center;
+    color: rgb(13, 19, 33);
+    opacity: 0.7;
 
+}
+/* inspiration section end */
+
+/* video section start */
+#video{
+    border:2px solid red;
+    width:1133px;
+    /* height:865px; */
+    margin: 0 382px 100px 382px;
+    text-align: center;
+}
+/* video section end */
+
+/* target section start */
+#target{
+    border:2px solid blue;
+    width:1133px;
+    height:162px;
+    margin: 0 382px 100px 382px;
+}
+#target h3{
+    text-align:center;
+    margin-bottom: 34px;
+}
+#target p{
+    text-align: center;
+    color: rgb(13, 19, 33);
+    opacity: 0.7;
+}
+/* target end  */
+/* target logo start */
+#target-logo{
+    border:2px solid blue;
+    width:1133px;
+    height:338px;
+    margin: 0 382px 100px 382px;
+    display:flex;
+}
+/* html start */
+#target-logo .html{
+    border: 2px solid green;
+    width:337px;
+    height: 250px;
+    padding:40px;
+    background: rgba(255, 76, 30, 0.05);
+}
+#target-logo .html h4{
+    margin-top:10px;
+}
+#target-logo .html p{
+    margin-top:20px;
+}
+#target-logo .html .btn{
+    margin-top: 20px;
+    text-decoration: underline;
+}
+/* html end */
+/* css start */
+
+#target-logo .css{
+    border: 2px solid red;
+    width:337px;
+    height: 250px;
+    padding:40px;
+    background: rgba(0, 76, 232, 0.05);
+}
+#target-logo .css h4{
+    margin-top:10px;
+}
+#target-logo .css p{
+    margin-top:20px;
+}
+#target-logo .css .btn{
+    margin-top: 20px;
+    text-decoration: underline;
+}
+/* css style end  */
+ /* JS Style start  */
+ #target-logo .javascript{
+    border: 2px solid green;
+    width:337px;
+    height: 250px;
+    padding:40px;
+    background: rgba(255, 223, 0, 0.05);
+ }
+ #target-logo .javascript h4{
+    margin-top:10px;
+ }
+ #target-logo .javascript p{
+    margin-top:20px;
+ }
+#target-logo .javascript .btn{
+    margin-top: 20px;
+    text-decoration: underline;
+}
+/* javascript style end  */
+/* target logo end  */
+/* main section  style end  */
+
+/* footer style start  */
+/* support style start */
+
+#support{
+    width:1516px;
+    height:442px;
+    background-image: url(../assets/handshake.jpg);
+    background-repeat: no-repeat;
+    background-size: 1500px 410px;
+    border: 2px solid red;
+    margin:80px auto;
+    /* padding:50px; */
+    
+}
+#support h2{
+    text-align: center;
+    justify-content: center;
+    margin-top: 75px;
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-size: 32px;
+}
+#support p{
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+    opacity: 0.7;
+}
+#support .input{
+    margin-left: 250px;
+    margin-top: 15px;
+}
+#support .input input[text]{
+    padding:10px;
+}
+
+ 
 
 
