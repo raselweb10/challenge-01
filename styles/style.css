@@ -1,0 +1,110 @@
+/* shared styles */
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: "Azeret Mono", monospace;
+}
+/* banner style */
+#banner{
+    max-width: 1915px;
+    height: 920px;
+    border: 2px solid red;
+    background-image:url(../assets/Hero-bg.png)
+    
+
+}
+#banner .banner-content{
+    border: 2px solid tomato;
+    height: 824px;
+    margin: 36px 293px 62px 293px;
+}
+#banner .image-div{
+    border: 2px solid green;
+    margin-bottom: 50px;
+    height: 375px;
+}
+#banner .banner-image{
+    margin-left: 510px;
+    /* margin-right: 470px; */
+}
+
+
+#banner .banner-text{
+    border: 2px solid blue;
+    height: 445px;
+}
+#banner .banner-text h1{
+    margin-bottom: 100px;
+    text-align: center;
+}
+#banner .banner-text .banner-para{
+    margin-bottom: 32px;
+    text-align: center;
+    opacity: 0.7;
+
+}
+#banner .banner-text .banner-btn{
+      text-align: center;
+      margin-top: 32px;
+}
+  /* main sectio style */
+
+/* hero sectio style */
+#hero{
+    width: 1260px;
+    height: 1741px;
+    border: 2px solid gold;
+    margin: 110px auto;
+    padding:80px 97px;
+
+   
+}
+#hero .hero-heading{
+    border: 2px solid gray;
+    height:08%;
+    text-align:center;
+}
+#hero .hero-heading-01{
+    margin-bottom:32px;
+
+}
+#hero p{
+    opacity: 0.7;
+}
+
+/* hero-content-01 */
+.hero-content-01{
+    height:20%;
+    border: 2px solid green;
+    margin-top: 44px;
+    text-align: center;
+    padding:48px;
+    display:flex;
+    justify-content: space-between;
+}
+#hero .hero-content-01-text{
+    width:50%;
+}
+#hero .hero-content-01 h3{
+    margin-top:22px;
+    margin-bottom: 22px;
+}
+#hero .hero-content-01 p{
+    margin-bottom: 50px;
+}
+#hero .hero-content-01 .btn{
+    box-sizing: border-box;
+   border: 1px solid rgb(13, 19, 33);
+   opacity: 0.7;
+   width: 150px;
+   height:48px;
+   color: rgb(13, 19, 33);
+   text-align: center;
+   /* justify-content: ;
+   */
+   padding:10px;
+}
