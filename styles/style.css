@@ -12,29 +12,24 @@ body{
 #banner{
     max-width: 1915px;
     height: 920px;
-    border: 2px solid red;
     background-image:url(../assets/Hero-bg.png)
     
 
 }
 #banner .banner-content{
-    border: 2px solid tomato;
     height: 824px;
     margin: 36px 293px 62px 293px;
 }
 #banner .image-div{
-    border: 2px solid green;
     margin-bottom: 50px;
     height: 375px;
 }
 #banner .banner-image{
     margin-left: 510px;
-    /* margin-right: 470px; */
 }
 
 
 #banner .banner-text{
-    border: 2px solid blue;
     height: 445px;
 }
 #banner .banner-text h1{
@@ -48,16 +43,25 @@ body{
 
 }
 #banner .banner-text .banner-btn{
-      text-align: center;
-      margin-top: 32px;
+    margin-top: 40px;
+    text-align: center;
 }
+.my-btn{
+    width: 208px;
+    height: 66px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+}
+
   /* main sectio style */
 
 /* hero sectio style */
 #hero{
     width: 1260px;
     height: 1741px;
-    border: 2px solid gold;
     margin: 110px auto;
     padding:80px 97px;
     background: rgba(13, 19, 33, 0.02);
@@ -65,7 +69,6 @@ body{
    
 }
 #hero .hero-heading{
-    border: 2px solid gray;
     height:08%;
     text-align:center;
 }
@@ -80,7 +83,6 @@ body{
 /* hero-content-01 */
 .hero-content-01{
     height:20%;
-    border: 2px solid green;
     margin-top: 44px;
     text-align: center;
     padding:48px;
@@ -113,7 +115,6 @@ body{
 
 #hero-content-02{
     height: 20%;
-    border: 2px solid blue;
     margin-top:50px;
     padding: 48px;
     display: flex; 
@@ -148,7 +149,6 @@ body{
 
 #hero-content-03{
     height:20%;
-    border: 2px solid green;
     margin-top: 70px;
     text-align: center;
     padding:48px;
@@ -179,7 +179,6 @@ body{
 
 /* inspiration style */
 #inspiration{
-    border:2px solid blue;
     width:1133px;
     height:162px;
     margin: 0 382px 100px 382px;
@@ -198,22 +197,18 @@ body{
 
 /* video section start */
 #video{
-    border:2px solid red;
     width:1133px;
-    /* height:865px; */
     margin: 0 382px 100px 382px;
-    text-align: center;
 }
 /* video section end */
 
 /* target section start */
 #target{
-    border:2px solid blue;
     width:1133px;
     height:162px;
     margin: 0 382px 100px 382px;
 }
-#target h3{
+#target h1{
     text-align:center;
     margin-bottom: 34px;
 }
@@ -225,7 +220,6 @@ body{
 /* target end  */
 /* target logo start */
 #target-logo{
-    border:2px solid blue;
     width:1133px;
     height:338px;
     margin: 0 382px 100px 382px;
@@ -233,7 +227,6 @@ body{
 }
 /* html start */
 #target-logo .html{
-    border: 2px solid green;
     width:337px;
     height: 250px;
     padding:40px;
@@ -253,7 +246,6 @@ body{
 /* css start */
 
 #target-logo .css{
-    border: 2px solid red;
     width:337px;
     height: 250px;
     padding:40px;
@@ -272,7 +264,6 @@ body{
 /* css style end  */
  /* JS Style start  */
  #target-logo .javascript{
-    border: 2px solid green;
     width:337px;
     height: 250px;
     padding:40px;
@@ -301,7 +292,6 @@ body{
     background-image: url(../assets/handshake.jpg);
     background-repeat: no-repeat;
     background-size: 1500px 410px;
-    border: 2px solid red;
     margin:80px auto;
     /* padding:50px; */
     
@@ -324,10 +314,6 @@ body{
     margin-left: 250px;
     margin-top: 15px;
 }
-#support .input input[text]{
-    padding:10px;
-}
-
  
 
 
